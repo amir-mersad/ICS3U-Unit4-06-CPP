@@ -12,9 +12,9 @@ int main() {
     int blue = 0;
 
     // Process
-    for (red = 0; red < 255; red++) {
-        for (green = 0; green < 255; green++) {
-            for (blue = 0; blue < 255; blue++) {
+    for (red = 253; red <= 255;red++) {
+        for (green = 253; green <= 255; green++) {
+            for (blue = 250; blue <= 255; blue++) {
                 // Output
                 std::cout << "RGB(" << red << "," << green << "," << blue <<
                           ")" << std::endl;
